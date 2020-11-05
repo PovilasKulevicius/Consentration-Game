@@ -15,6 +15,8 @@
 		9A48089D2551578E0097F8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A48089B2551578E0097F8F9 /* LaunchScreen.storyboard */; };
 		9A4808A82551578E0097F8F9 /* ConsentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4808A72551578E0097F8F9 /* ConsentrationTests.swift */; };
 		9A4808B32551578E0097F8F9 /* ConsentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4808B22551578E0097F8F9 /* ConsentrationUITests.swift */; };
+		9A4808C7255182E10097F8F9 /* Consentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4808C6255182E10097F8F9 /* Consentration.swift */; };
+		9A4808CC255185040097F8F9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4808CB255185040097F8F9 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9A4808AE2551578E0097F8F9 /* ConsentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4808B22551578E0097F8F9 /* ConsentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentrationUITests.swift; sourceTree = "<group>"; };
 		9A4808B42551578E0097F8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4808C6255182E10097F8F9 /* Consentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consentration.swift; sourceTree = "<group>"; };
+		9A4808CB255185040097F8F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				9A4808902551578D0097F8F9 /* AppDelegate.swift */,
 				9A4808922551578D0097F8F9 /* SceneDelegate.swift */,
 				9A4808942551578D0097F8F9 /* ViewController.swift */,
+				9A4808C6255182E10097F8F9 /* Consentration.swift */,
 				9A4808962551578D0097F8F9 /* Main.storyboard */,
 				9A4808992551578E0097F8F9 /* Assets.xcassets */,
 				9A48089B2551578E0097F8F9 /* LaunchScreen.storyboard */,
 				9A48089E2551578E0097F8F9 /* Info.plist */,
+				9A4808CB255185040097F8F9 /* Card.swift */,
 			);
 			path = Consentration;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4808952551578D0097F8F9 /* ViewController.swift in Sources */,
+				9A4808C7255182E10097F8F9 /* Consentration.swift in Sources */,
+				9A4808CC255185040097F8F9 /* Card.swift in Sources */,
 				9A4808912551578D0097F8F9 /* AppDelegate.swift in Sources */,
 				9A4808932551578D0097F8F9 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78N4JXNAN9;
 				INFOPLIST_FILE = Consentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78N4JXNAN9;
 				INFOPLIST_FILE = Consentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
